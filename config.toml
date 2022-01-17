@@ -1,0 +1,57 @@
+baseURL = "https://vseiche.github.io/"
+title = "Voicu Seiche's blog"
+languageCode = "en-us"
+theme = "mainroad"
+paginate = "10"
+
+publishDir = "docs"
+
+[Author]
+  name = "Voicu Seiche"
+  bio = "A lazy .NET Full Stack developer"
+#   avatar = "img/avatar.png"
+
+[Params]
+  description = "Voicu Seiche's personal blog about development stuff"
+  copyright = "Voicu Seiche"
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+
+[Params.style.vars]
+  highlightColor = "#32cc32" # Lime Green
+#   highlightColor = "#ffe20b" # Vivid Yellow
+#   highlightColor = "#36454F" # Charcoal
+
+  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Take care of different quotes OR escaping symbols in these params if necessary
+#   fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+#   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = true # Configure layout for single pages
+  # Enable widgets in given order
+#   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["recent", "categories", "taglist", "social"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = true # Enable counter for each category in "Categories" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#   facebook = "username"
+  twitter = "VoicuSeiche"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+  github = "vseiche"
+#   gitlab = "username"
+#   bitbucket = "username"
+  # email = "voicu.seiche@outlook.com"
