@@ -18,6 +18,7 @@ publishDir = "docs"
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  favicon = "favicon.ico"
 
 [Params.style.vars]
   highlightColor = "#32cc32" # Lime Green
